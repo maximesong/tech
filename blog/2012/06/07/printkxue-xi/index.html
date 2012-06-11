@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>EmacsFans的博客</title>
+  <title>printk学习 - EmacsFans的博客</title>
   <meta name="author" content="EmacsFans">
 
   
@@ -19,7 +19,7 @@ dmesg | tail console (注意，不是terminal) 通过设置日志级别，可以
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://mfight.github.com/tech/">
+  <link rel="canonical" href="http://mfight.github.com/tech/blog/2012/06/07/printkxue-xi/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -63,15 +63,12 @@ dmesg | tail console (注意，不是terminal) 通过设置日志级别，可以
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2012/06/07/printkxue-xi/">Printk学习</a></h1>
+      <h1 class="entry-title">Printk学习</h1>
     
     
       <p class="meta">
@@ -89,14 +86,14 @@ dmesg | tail console (注意，不是terminal) 通过设置日志级别，可以
 
 <time datetime="2012-06-07T22:58:00+08:00" pubdate data-updated="true">Jun 7<span>th</span>, 2012</time>
         
-         | <a href="/blog/2012/06/07/printkxue-xi/#disqus_thread">Comments</a>
+         | <a href="#disqus_thread">Comments</a>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><h1>查看printk的输出内容</h1>
+<div class="entry-content"><h1>查看printk的输出内容</h1>
 
 <h2>dmesg</h2>
 
@@ -120,72 +117,16 @@ dmesg | tail console (注意，不是terminal) 通过设置日志级别，可以
 
 <p>在virtualbox里没有办法用Ctrl+Alt+(F1～F7)切换，可以用Host(Right-Ctrl)+(F1~F7)替代。</p>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/06/07/linux-module/">Linux Module</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
   
 
+<span class="byline author vcard">Posted by <span class="fn">EmacsFans</span></span>
 
-<time datetime="2012-06-07T22:15:00+08:00" pubdate data-updated="true">Jun 7<span>th</span>, 2012</time>
-        
-         | <a href="/blog/2012/06/07/linux-module/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h1>命令</h1>
-
-<h2>查看加载模块</h2>
-
-<p>lsmode</p>
-
-<h2>挂载模块</h2>
-
-<p>insmod</p>
-
-<h2>删除模块</h2>
-
-<p>rmmod</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/06/07/hello-world/">Hello World</a></h1>
-    
-    
-      <p class="meta">
-        
 
 
 
@@ -197,29 +138,36 @@ dmesg | tail console (注意，不是terminal) 通过设置日志级别，可以
   
 
 
-<time datetime="2012-06-07T18:04:00+08:00" pubdate data-updated="true">Jun 7<span>th</span>, 2012</time>
-        
-         | <a href="/blog/2012/06/07/hello-world/#disqus_thread">Comments</a>
-        
-      </p>
+<time datetime="2012-06-07T22:58:00+08:00" pubdate data-updated="true">Jun 7<span>th</span>, 2012</time>
+      
+
+
+    </p>
     
-  </header>
-
-
-  <div class="entry-content"><p>依照惯例，Hello World!</p>
+      <div class="sharing">
+  
+  
+  
 </div>
-  
-  
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/06/07/linux-module/" title="Previous Post: linux module">&laquo; linux module</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
+  </section>
+
+</div>
+
 <aside class="sidebar">
   
     <section>
@@ -244,7 +192,7 @@ dmesg | tail console (注意，不是terminal) 通过设置日志级别，可以
 <section>
   <h1>GitHub Repos</h1>
   <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   
   <a href="https://github.com/mfight">@mfight</a> on GitHub
@@ -278,6 +226,7 @@ dmesg | tail console (注意，不是terminal) 通过设置日志级别，可以
   
 </aside>
 
+
     </div>
   </div>
   <footer role="contentinfo"><p>
@@ -292,7 +241,10 @@ dmesg | tail console (注意，不是terminal) 通过设置日志级别，可以
       var disqus_shortname = 'emacsfans';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://mfight.github.com/tech/blog/2012/06/07/printkxue-xi/';
+        var disqus_url = 'http://mfight.github.com/tech/blog/2012/06/07/printkxue-xi/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
