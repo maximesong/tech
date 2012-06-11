@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[EmacsFans的博客]]></title>
-  <link href="http://mfight.github.com/tech/atom.xml" rel="self"/>
+  <title><![CDATA[Category: linux | EmacsFans的博客]]></title>
+  <link href="http://mfight.github.com/tech/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://mfight.github.com/tech/"/>
   <updated>2012-06-11T22:06:27+08:00</updated>
   <id>http://mfight.github.com/tech/</id>
@@ -22,10 +22,9 @@
 
 <h2>dmesg</h2>
 
-<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>dmesg | tail
-</span></code></pre></td></tr></table></div></figure>
-
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <h2>console (注意，不是terminal)</h2>
 
@@ -33,10 +32,9 @@
 
 <h3>printk在控制台的日志级别</h3>
 
-<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nb">echo </span>8 &gt; /proc/sys/kernel/printk
-</span></code></pre></td></tr></table></div></figure>
-
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <h3>virtualbox中切换终端</h3>
 
@@ -62,15 +60,6 @@
 <h2>删除模块</h2>
 
 <p>rmmod</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://mfight.github.com/tech/blog/2012/06/07/hello-world/"/>
-    <updated>2012-06-07T18:04:00+08:00</updated>
-    <id>http://mfight.github.com/tech/blog/2012/06/07/hello-world</id>
-    <content type="html"><![CDATA[<p>依照惯例，Hello World!</p>
 ]]></content>
   </entry>
   
